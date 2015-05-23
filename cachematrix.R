@@ -33,5 +33,5 @@ cacheSolve <- function(x, ...) {
   data <- x$get()
   matinv <- solve(data, ...) ## otherwise compute inverse
   x$setinverse(matinv)  ## store inverse
-  matinv   
+  matinv   ## output inverse
 }
